@@ -1,8 +1,8 @@
 from collections import defaultdict
-
+ 
 n,sum = map(int,input().split())
 arr= list(map(int,input().split()))
-
+ 
 count = 0
 sum_history = defaultdict(lambda : 0)
 tempSum = 0
